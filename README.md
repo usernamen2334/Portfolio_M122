@@ -11,13 +11,15 @@ In PowerShell gibt es verschiedene Möglichkeiten, Eingaben zu verarbeiten:
 
 Benutzereingaben über die Konsole: Mithilfe des Cmdlets "Read-Host" kann der Benutzer Texteingaben über die PowerShell-Konsole machen. Das Skript wartet, bis der Benutzer eine Eingabe macht, und speichert diese in einer Variablen.
 
-``` $name = Read-Host "Geben Sie Ihren Namen ein"
+```
+$name = Read-Host "Geben Sie Ihren Namen ein"
 Write-Host "Hallo, $name!"
 ```
 
 Parameterübergabe beim Aufruf des Skripts: PowerShell-Skripte können auch mit Parametern aufgerufen werden. Diese Parameter können beim Ausführen des Skripts übergeben werden und dienen zur Konfiguration oder Personalisierung des Skripts.
 
-``` param (
+```
+param (
     [string]$name
 )
 
