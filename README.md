@@ -6,7 +6,7 @@ In diesem Lernbericht möchte ich meine Erfahrungen und Erkenntnisse zum Thema I
 
 
 ## Verwendung
-Eingabe in PowerShell:
+### Eingabe in PowerShell:
 In PowerShell gibt es verschiedene Möglichkeiten, Eingaben zu verarbeiten:
 
 Benutzereingaben über die Konsole: Mithilfe des Cmdlets "Read-Host" kann der Benutzer Texteingaben über die PowerShell-Konsole machen. Das Skript wartet, bis der Benutzer eine Eingabe macht, und speichert diese in einer Variablen.
@@ -24,4 +24,27 @@ param (
 )
 
 Write-Host "Hallo, $name!"
+```
+
+### Ausgabe in PowerShell:
+In PowerShell gibt es verschiedene Möglichkeiten, Ausgaben zu erzeugen:
+
+Textausgabe auf der Konsole: Die Ausgabe von Text auf der Konsole erfolgt mithilfe des Cmdlets "Write-Host". Dieses Cmdlet gibt den angegebenen Text auf der Konsole aus.
+
+```
+Write-Host "Dies ist eine Textausgabe"
+
+```
+Ausgabe von Variablenwerten: PowerShell ermöglicht die direkte Ausgabe von Variablenwerten auf der Konsole, ohne explizit "Write-Host" verwenden zu müssen.
+
+
+```
+$name = "John Doe"
+$name  # gibt den Wert der Variable $name aus
+
+```
+
+Ausgabe in Dateien: PowerShell bietet die Möglichkeit, Ergebnisse in Dateien zu schreiben. Dies kann mit dem Cmdlet "Out-File" erfolgen.
+```
+Get-Process | Out-File -FilePath "C:\Prozesse.txt"
 ```
