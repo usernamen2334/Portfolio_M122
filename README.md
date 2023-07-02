@@ -48,3 +48,7 @@ Ausgabe in Dateien: PowerShell bietet die Möglichkeit, Ergebnisse in Dateien zu
 ```
 Get-Process | Out-File -FilePath "C:\Prozesse.txt"
 ```
+## Reflexion:
+Während meiner Auseinandersetzung mit Input-Output in PowerShell habe ich gelernt, wie vielseitig die Möglichkeiten zur Eingabe und Ausgabe in dieser Skriptsprache sind. Die Verarbeitung von Benutzereingaben mithilfe von "Read-Host" und das Arbeiten mit Parametern ermöglichen eine flexible Steuerung von Skripten. Die Ausgabe von Text und Variablenwerten auf der Konsole oder in Dateien ermöglicht eine effektive Kommunikation von Informationen. Ich habe auch festgestellt, dass PowerShell über eine umfangreiche Dokumentation und eine aktive Community verfügt, was die Entwicklung von Skripten erleichtert und bei auftretenden Fragen hilft.
+
+Insgesamt hat mich die Arbeit mit Input-Output in PowerShell dazu befähigt, Skripte zu erstellen, die interaktiv mit dem Benutzer kommunizieren und Ergebnisse auf verschiedene Weisen ausgeben können. Ich bin motiviert, meine Kenntnisse in PowerShell weiter
